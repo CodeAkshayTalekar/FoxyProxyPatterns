@@ -1,0 +1,76 @@
+{
+  "whitePatterns": [
+    {
+      "title": "all URLs",
+      "pattern": "*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    }
+  ],
+  "blackPatterns": [
+    {
+      "title": "",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "detectportal.firefox.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "content-signature-2.cdn.mozilla.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "www.googletagmanager.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "www.google-analytics.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "googleads.g.doubleclick.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "analytics.tiktok.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    }
+  ]
+}
