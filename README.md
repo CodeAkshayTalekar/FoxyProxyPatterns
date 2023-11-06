@@ -1,2 +1,3 @@
 # FoxyProxyPatterns
-This is Backup of Blacklist Patterns I use for bugbounty. This Remove Garbage Urls.
+This is a Backup of the Blacklist Patterns I use for bug-bounty. This Remove Garbage Urls.
+Download the Latest One only.
