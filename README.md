@@ -1,0 +1,1 @@
+# FoxyProxyPatterns
